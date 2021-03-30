@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SSDTUnitTestPath Condition="'$(SSDTUnitTestPath)' == ''">$(VsInstallRoot)\Common7\IDE\Extensions\Microsoft\SQLDB</SSDTUnitTestPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SSDTPath Condition="'$(SSDTPath)' == ''">$(VsInstallRoot)\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\130</SSDTPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D06BE4CE-033E-4130-A2DC-3C3F4E9684B6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Quanlidiemsinhvien</RootNamespace>
+    <AssemblyName>Quanlidiemsinhvien</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="con1\ConnectionString.cs" />
+    <Compile Include="Dangnhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dangnhap.Designer.cs">
+      <DependentUpon>Dangnhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Danhsach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Danhsach.Designer.cs">
+      <DependentUpon>Danhsach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Danhsachsinhvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Danhsachsinhvien.Designer.cs">
+      <DependentUpon>Danhsachsinhvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diemtheokhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diemtheokhoa.Designer.cs">
+      <DependentUpon>Diemtheokhoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDiemtheolop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDiemtheolop.Designer.cs">
+      <DependentUpon>frmDiemtheolop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDiem.Designer.cs">
+      <DependentUpon>frmDiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHocKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHocKy.Designer.cs">
+      <DependentUpon>frmHocKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInfo.Designer.cs">
+      <DependentUpon>frmInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKhoa.Designer.cs">
+      <DependentUpon>frmKhoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLop.Designer.cs">
+      <DependentUpon>frmLop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMonHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMonHoc.Designer.cs">
+      <DependentUpon>frmMonHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThongTin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThongTin.Designer.cs">
+      <DependentUpon>frmThongTin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListHocKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListHocKy.Designer.cs">
+      <DependentUpon>ListHocKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListKhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListKhoa.Designer.cs">
+      <DependentUpon>ListKhoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListKhoaHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListKhoaHoc.Designer.cs">
+      <DependentUpon>ListKhoaHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListLop.Designer.cs">
+      <DependentUpon>ListLop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListMonHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListMonHoc.Designer.cs">
+      <DependentUpon>ListMonHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nhap.Designer.cs">
+      <DependentUpon>nhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSV.Designer.cs">
+      <DependentUpon>FrmSV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="QLD.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLD.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="SqlDatabaseSetup.cs" />
+    <Compile Include="SqlServerUnitTest1.cs">
+      <SubType>Designer</SubType>
+    </Compile>
+    <Compile Include="TestContext.cs" />
+    <Compile Include="TestInitializeAttribute.cs" />
+    <Compile Include="TestMethodAttribute.cs" />
+    <Compile Include="Xuly.cs" />
+    <EmbeddedResource Include="Dangnhap.resx">
+      <DependentUpon>Dangnhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Danhsach.resx">
+      <DependentUpon>Danhsach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Danhsachsinhvien.resx">
+      <DependentUpon>Danhsachsinhvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diemtheokhoa.resx">
+      <DependentUpon>Diemtheokhoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiemtheolop.resx">
+      <DependentUpon>frmDiemtheolop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiem.resx">
+      <DependentUpon>frmDiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHocKy.resx">
+      <DependentUpon>frmHocKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInfo.resx">
+      <DependentUpon>frmInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKhoa.resx">
+      <DependentUpon>frmKhoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLop.resx">
+      <DependentUpon>frmLop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMonHoc.resx">
+      <DependentUpon>frmMonHoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThongTin.resx">
+      <DependentUpon>frmThongTin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListHocKy.resx">
+      <DependentUpon>ListHocKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListKhoa.resx">
+      <DependentUpon>ListKhoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListKhoaHoc.resx">
+      <DependentUpon>ListKhoaHoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListLop.resx">
+      <DependentUpon>ListLop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListMonHoc.resx">
+      <DependentUpon>ListMonHoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nhap.resx">
+      <DependentUpon>nhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSV.resx">
+      <DependentUpon>FrmSV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="QLD.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>QLD.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLD.dbml.layout">
+      <DependentUpon>QLD.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\icon báo cáo.jpg" />
+  </ItemGroup>
+  <ItemGroup Condition="$(VisualStudioVersion) == '16.0'">
+    <Reference Include="Microsoft.Data.Tools.Schema.Sql, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>$(SSDTPath)\Microsoft.Data.Tools.Schema.Sql.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Data.Tools.Schema.Sql.UnitTesting, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>$(SSDTUnitTestPath)\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>$(SSDTUnitTestPath)\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\hệ thống.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\icon báo cáo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\icon công cụ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\icon danh sách.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\icon hồ sơ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\icon main.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\icon quản lý.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\icon trợ giúp.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\icon exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\máy in.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cai-bang-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\background.jpg" />
+    <Content Include="Image\Home %281%29.ico" />
+    <Content Include="Image\js-login-form-590x407.jpg" />
+    <Content Include="Image\login.jpg" />
+    <Content Include="Image\Webalys-Kameleon.pics-Student-3.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <SsdtUnitTestVersion>3.1</SsdtUnitTestVersion>
+  </PropertyGroup>
+  <Import Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.Sql.UnitTesting.targets" Condition="$(VisualStudioVersion) != '15.0' And '$(SQLDBExtensionsRefPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.Sql.UnitTesting.targets" Condition="$(VisualStudioVersion) != '15.0' And '$(SQLDBExtensionsRefPath)' == ''" />
+</Project>
