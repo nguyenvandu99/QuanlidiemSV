@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDiemtheolop));
             this.label1 = new System.Windows.Forms.Label();
             this.cboLop = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -123,7 +124,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(992, 88);
+            this.label6.Location = new System.Drawing.Point(975, 88);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(105, 24);
             this.label6.TabIndex = 6;
@@ -174,7 +175,7 @@
             // 
             this.lbnQuequan.AutoSize = true;
             this.lbnQuequan.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbnQuequan.Location = new System.Drawing.Point(1114, 88);
+            this.lbnQuequan.Location = new System.Drawing.Point(1098, 85);
             this.lbnQuequan.Name = "lbnQuequan";
             this.lbnQuequan.Size = new System.Drawing.Size(43, 24);
             this.lbnQuequan.TabIndex = 12;
@@ -184,7 +185,7 @@
             // 
             this.lbnGioitinh.AutoSize = true;
             this.lbnGioitinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbnGioitinh.Location = new System.Drawing.Point(1114, 142);
+            this.lbnGioitinh.Location = new System.Drawing.Point(1098, 136);
             this.lbnGioitinh.Name = "lbnGioitinh";
             this.lbnGioitinh.Size = new System.Drawing.Size(43, 24);
             this.lbnGioitinh.TabIndex = 13;
@@ -243,14 +244,14 @@
             // 
             // dtgDiem
             // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgDiem.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgDiem.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dtgDiem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgDiem.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.MaMH,
@@ -259,14 +260,14 @@
             this.DiemHP,
             this.DiemChu,
             this.DiemSo});
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgDiem.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgDiem.DefaultCellStyle = dataGridViewCellStyle2;
             this.dtgDiem.Location = new System.Drawing.Point(425, 177);
             this.dtgDiem.Name = "dtgDiem";
             this.dtgDiem.Size = new System.Drawing.Size(1487, 872);
@@ -317,11 +318,11 @@
             // btnExcel
             // 
             this.btnExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExcel.Location = new System.Drawing.Point(1582, 134);
+            this.btnExcel.Image = ((System.Drawing.Image)(resources.GetObject("btnExcel.Image")));
+            this.btnExcel.Location = new System.Drawing.Point(1619, 88);
             this.btnExcel.Name = "btnExcel";
-            this.btnExcel.Size = new System.Drawing.Size(262, 32);
+            this.btnExcel.Size = new System.Drawing.Size(100, 80);
             this.btnExcel.TabIndex = 21;
-            this.btnExcel.Text = "Xuất excel";
             this.btnExcel.UseVisualStyleBackColor = true;
             this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
             // 

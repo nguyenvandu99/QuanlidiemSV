@@ -62,11 +62,11 @@
             // btnExcel
             // 
             this.btnExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExcel.Location = new System.Drawing.Point(1572, 135);
+            this.btnExcel.Image = global::Quanlidiemsinhvien.Properties.Resources.excel2;
+            this.btnExcel.Location = new System.Drawing.Point(1594, 92);
             this.btnExcel.Name = "btnExcel";
-            this.btnExcel.Size = new System.Drawing.Size(262, 32);
+            this.btnExcel.Size = new System.Drawing.Size(100, 80);
             this.btnExcel.TabIndex = 41;
-            this.btnExcel.Text = "Xuất excel";
             this.btnExcel.UseVisualStyleBackColor = true;
             // 
             // DiemChu
@@ -197,7 +197,7 @@
             // 
             this.lbnGioitinh.AutoSize = true;
             this.lbnGioitinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbnGioitinh.Location = new System.Drawing.Point(1104, 143);
+            this.lbnGioitinh.Location = new System.Drawing.Point(1091, 137);
             this.lbnGioitinh.Name = "lbnGioitinh";
             this.lbnGioitinh.Size = new System.Drawing.Size(43, 24);
             this.lbnGioitinh.TabIndex = 34;
@@ -207,7 +207,7 @@
             // 
             this.lbnQuequan.AutoSize = true;
             this.lbnQuequan.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbnQuequan.Location = new System.Drawing.Point(1104, 89);
+            this.lbnQuequan.Location = new System.Drawing.Point(1091, 86);
             this.lbnQuequan.Name = "lbnQuequan";
             this.lbnQuequan.Size = new System.Drawing.Size(43, 24);
             this.lbnQuequan.TabIndex = 33;
@@ -257,7 +257,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(982, 89);
+            this.label6.Location = new System.Drawing.Point(965, 89);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(105, 24);
             this.label6.TabIndex = 28;

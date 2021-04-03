@@ -336,9 +336,6 @@
     <None Include="Image\máy in.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Image\excel.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <ItemGroup>
@@ -349,6 +346,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Image\background.jpg" />
+    <Content Include="Image\excel2.jpg" />
     <Content Include="Image\Home %281%29.ico" />
     <Content Include="Image\js-login-form-590x407.jpg" />
     <Content Include="Image\login.jpg" />

@@ -218,42 +218,42 @@
             // cậpNhậpThôngTinLớpToolStripMenuItem
             // 
             this.cậpNhậpThôngTinLớpToolStripMenuItem.Name = "cậpNhậpThôngTinLớpToolStripMenuItem";
-            this.cậpNhậpThôngTinLớpToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.cậpNhậpThôngTinLớpToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cậpNhậpThôngTinLớpToolStripMenuItem.Text = "Cập nhập  lớp";
             this.cậpNhậpThôngTinLớpToolStripMenuItem.Click += new System.EventHandler(this.cậpNhậpThôngTinLớpToolStripMenuItem_Click);
             // 
             // cậpNhậpĐiểmToolStripMenuItem
             // 
             this.cậpNhậpĐiểmToolStripMenuItem.Name = "cậpNhậpĐiểmToolStripMenuItem";
-            this.cậpNhậpĐiểmToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.cậpNhậpĐiểmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cậpNhậpĐiểmToolStripMenuItem.Text = "Cập nhập điểm";
             this.cậpNhậpĐiểmToolStripMenuItem.Click += new System.EventHandler(this.cậpNhậpĐiểmToolStripMenuItem_Click);
             // 
             // cậpNhậpSinhViênToolStripMenuItem
             // 
             this.cậpNhậpSinhViênToolStripMenuItem.Name = "cậpNhậpSinhViênToolStripMenuItem";
-            this.cậpNhậpSinhViênToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.cậpNhậpSinhViênToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cậpNhậpSinhViênToolStripMenuItem.Text = "Cập nhập sinh viên";
             this.cậpNhậpSinhViênToolStripMenuItem.Click += new System.EventHandler(this.cậpNhậpSinhViênToolStripMenuItem_Click);
             // 
             // cậpNhậpMônToolStripMenuItem
             // 
             this.cậpNhậpMônToolStripMenuItem.Name = "cậpNhậpMônToolStripMenuItem";
-            this.cậpNhậpMônToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.cậpNhậpMônToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cậpNhậpMônToolStripMenuItem.Text = "Cập nhập môn";
             this.cậpNhậpMônToolStripMenuItem.Click += new System.EventHandler(this.cậpNhậpMônToolStripMenuItem_Click);
             // 
             // cậpNhậpHọcKỳToolStripMenuItem
             // 
             this.cậpNhậpHọcKỳToolStripMenuItem.Name = "cậpNhậpHọcKỳToolStripMenuItem";
-            this.cậpNhậpHọcKỳToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.cậpNhậpHọcKỳToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cậpNhậpHọcKỳToolStripMenuItem.Text = "Cập nhập học kỳ";
             this.cậpNhậpHọcKỳToolStripMenuItem.Click += new System.EventHandler(this.cậpNhậpHọcKỳToolStripMenuItem_Click);
             // 
             // cậpNhậpKhoaToolStripMenuItem
             // 
             this.cậpNhậpKhoaToolStripMenuItem.Name = "cậpNhậpKhoaToolStripMenuItem";
-            this.cậpNhậpKhoaToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.cậpNhậpKhoaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cậpNhậpKhoaToolStripMenuItem.Text = "Cập nhập khoa";
             this.cậpNhậpKhoaToolStripMenuItem.Click += new System.EventHandler(this.cậpNhậpKhoaToolStripMenuItem_Click);
             // 
@@ -296,7 +296,7 @@
             // lblXinChao
             // 
             this.lblXinChao.AutoSize = true;
-            this.lblXinChao.Location = new System.Drawing.Point(1742, 7);
+            this.lblXinChao.Location = new System.Drawing.Point(1681, 7);
             this.lblXinChao.Name = "lblXinChao";
             this.lblXinChao.Size = new System.Drawing.Size(56, 13);
             this.lblXinChao.TabIndex = 6;
@@ -306,7 +306,7 @@
             // 
             this.lblUsername.AutoSize = true;
             this.lblUsername.ForeColor = System.Drawing.Color.Red;
-            this.lblUsername.Location = new System.Drawing.Point(1802, 7);
+            this.lblUsername.Location = new System.Drawing.Point(1743, 7);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(35, 13);
             this.lblUsername.TabIndex = 7;

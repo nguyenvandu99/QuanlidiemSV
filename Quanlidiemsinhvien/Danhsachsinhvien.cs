@@ -25,6 +25,7 @@ namespace Quanlidiemsinhvien
         private void frmDSSV_Load(object sender, EventArgs e)
         {
             DsSinhVien.DataSource = dt.SinhVien_SelectAll();
+            
         }
 
         private void frmDSKhoa_FormClosing(object sender, FormClosingEventArgs e)

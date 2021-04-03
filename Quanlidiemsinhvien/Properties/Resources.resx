@@ -127,17 +127,17 @@
   <data name="cai-bang-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cai-bang-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\login.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="hệ thống" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\hệ thống.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon hồ sơ" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\icon hồ sơ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\icon exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="js-login-form-590x407" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\js-login-form-590x407.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon trợ giúp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\icon trợ giúp.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,14 +145,14 @@
   <data name="background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icon exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\icon exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icon danh sách" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\icon danh sách.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon báo cáo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\icon báo cáo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="js-login-form-590x407" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\js-login-form-590x407.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="máy in" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\máy in.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,13 +160,11 @@
   <data name="icon quản lý" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\icon quản lý.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\excel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\login.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  
   <data name="login1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\login.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="excel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\excel2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

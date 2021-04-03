@@ -49,7 +49,7 @@ namespace Quanlidiemsinhvien
             {
                 lbnMaSV.Text = e.Node.Name;
                 lbnTenSV.Text = r.TenSV;
-                lbnNgaysinh.Text = r.NgaySinh.ToString();
+                lbnNgaysinh.Text = Convert.ToDateTime(r.NgaySinh).ToString("dd-MM-yyyy");
                 lbnQuequan.Text = r.QueQuan;
                 lbnGioitinh.Text = r.GioiTinh;
             }

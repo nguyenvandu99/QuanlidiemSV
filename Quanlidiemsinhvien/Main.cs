@@ -53,7 +53,7 @@ namespace Quanlidiemsinhvien
         private void cậpNhậpThôngTinLớpToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-            if (checkper("ALL") == true || checkper("FULL") == true || checkper("EDIT") == true)
+            if (checkper("ALL") == true || checkper("FULL") == true )
             {
                 frmLop frmlop = new frmLop();
                 frmlop.MdiParent = this;
@@ -101,7 +101,7 @@ namespace Quanlidiemsinhvien
 
         private void cậpNhậpKhoaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (checkper("ALL") == true || checkper("FULL") == true || checkper("EDIT") == true)
+            if (checkper("ALL") == true || checkper("FULL") == true )
             {
                 frmKhoa frmKhoa = new frmKhoa();
                 frmKhoa.MdiParent = this;
@@ -115,7 +115,7 @@ namespace Quanlidiemsinhvien
 
         private void cậpNhậpHọcKỳToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (checkper("ALL") == true || checkper("FULL") == true || checkper("EDIT") == true)
+            if (checkper("ALL") == true || checkper("FULL") == true )
             {
                 frmHocKy frmHK = new frmHocKy();
                 frmHK.MdiParent = this;
@@ -129,7 +129,7 @@ namespace Quanlidiemsinhvien
 
         private void cậpNhậpMônToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (checkper("ALL") == true || checkper("FULL") == true || checkper("EDIT") == true)
+            if (checkper("ALL") == true || checkper("FULL") == true )
             {
                 frmMonHoc frmMH = new frmMonHoc();
                 frmMH.MdiParent = this;
@@ -143,7 +143,7 @@ namespace Quanlidiemsinhvien
 
         private void cậpNhậpSinhViênToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (checkper("ALL") == true || checkper("FULL") == true || checkper("EDIT") == true)
+            if (checkper("ALL") == true || checkper("FULL") == true)
             {
                 frmSV sv = new frmSV();
                 sv.MdiParent = this;
