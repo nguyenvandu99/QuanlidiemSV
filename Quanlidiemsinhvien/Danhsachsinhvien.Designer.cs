@@ -35,7 +35,6 @@
             this.GioiTinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.QueQuan = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MaLop = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MaKhoa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.DsSinhVien)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,8 +48,7 @@
             this.NgaySinh,
             this.GioiTinh,
             this.QueQuan,
-            this.MaLop,
-            this.MaKhoa});
+            this.MaLop});
             this.DsSinhVien.Location = new System.Drawing.Point(12, 47);
             this.DsSinhVien.Name = "DsSinhVien";
             this.DsSinhVien.Size = new System.Drawing.Size(1900, 1002);
@@ -89,16 +87,10 @@
             // 
             // MaLop
             // 
+            this.MaLop.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.MaLop.DataPropertyName = "MaLop";
             this.MaLop.HeaderText = "Mã lớp";
             this.MaLop.Name = "MaLop";
-            // 
-            // MaKhoa
-            // 
-            this.MaKhoa.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.MaKhoa.DataPropertyName = "MaKhoa";
-            this.MaKhoa.HeaderText = "Mã khoa";
-            this.MaKhoa.Name = "MaKhoa";
             // 
             // frmDSKhoa
             // 
@@ -125,6 +117,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn GioiTinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn QueQuan;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaLop;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MaKhoa;
     }
 }

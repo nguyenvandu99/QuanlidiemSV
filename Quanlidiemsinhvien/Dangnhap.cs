@@ -67,7 +67,7 @@ namespace Quanlidiemsinhvien
             try
             {
                 con.Open();
-                SqlCommand cmd = new SqlCommand("SELECT * FROM Taikhoan WHERE username ='" + textUsername.Text + "' AND passwd = '" + textPasswd.Text + "'", con);
+                SqlCommand cmd = new SqlCommand("SELECT * FROM Taikhoan WHERE username ='" + textUsername.Text.Trim() + "' AND passwd = '" + textPasswd.Text.Trim() + "'", con);
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
