@@ -31,7 +31,7 @@ namespace Quanlidiemsinhvien
             //dtgLop.DataSource = dt.Lop_SelectAll();
 
         }
-       
+
         private void cboMaKhoa_SelectedIndexChanged(object sender, EventArgs e)
         {
             dtgLop.DataSource = dt.Lop_SelectMaKhoa(cboMaKhoa.SelectedValue.ToString());
@@ -39,7 +39,7 @@ namespace Quanlidiemsinhvien
             textMaLop.DataBindings.Add("Text", dtgLop.DataSource, "MaLop");
             textTenLop.DataBindings.Clear();
             textTenLop.DataBindings.Add("Text", dtgLop.DataSource, "TenLop");
-           
+
 
         }
 
@@ -50,7 +50,7 @@ namespace Quanlidiemsinhvien
             textMaLop.DataBindings.Add("Text", dtgLop.DataSource, "MaLop");
             textTenLop.DataBindings.Clear();
             textTenLop.DataBindings.Add("Text", dtgLop.DataSource, "TenLop");
-            
+
         }
 
         private void cboMaKH_SelectedIndexChanged(object sender, EventArgs e)
@@ -60,7 +60,7 @@ namespace Quanlidiemsinhvien
             textMaLop.DataBindings.Add("Text", dtgLop.DataSource, "MaLop");
             textTenLop.DataBindings.Clear();
             textTenLop.DataBindings.Add("Text", dtgLop.DataSource, "TenLop");
-            
+
         }
 
         private void btnThem_Click(object sender, EventArgs e)
@@ -74,6 +74,7 @@ namespace Quanlidiemsinhvien
 
             dt.Lop_Update(textMaLop.Text, textTenLop.Text, cboMaKhoa.Text, CboMaHeDT.Text, cboMaKH.Text);
             frmLop_Load(sender, e);
+            
 
         }
         private void button3_Click(object sender, EventArgs e)

@@ -33,7 +33,6 @@ namespace Quanlidiemsinhvien
             this.MaKhoa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenKhoa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DienThoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.DsKhoa)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,8 +43,7 @@ namespace Quanlidiemsinhvien
             this.DsKhoa.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.MaKhoa,
             this.TenKhoa,
-            this.DiaChi,
-            this.DienThoai});
+            this.DiaChi});
             this.DsKhoa.Location = new System.Drawing.Point(12, 29);
             this.DsKhoa.Name = "DsKhoa";
             this.DsKhoa.Size = new System.Drawing.Size(1900, 1002);
@@ -70,13 +68,6 @@ namespace Quanlidiemsinhvien
             this.DiaChi.HeaderText = "Địa chỉ";
             this.DiaChi.Name = "DiaChi";
             // 
-            // DienThoai
-            // 
-            this.DienThoai.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.DienThoai.DataPropertyName = "DienThoai";
-            this.DienThoai.HeaderText = "Số Điện Thoại";
-            this.DienThoai.Name = "DienThoai";
-            // 
             // ListKhoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -99,6 +90,5 @@ namespace Quanlidiemsinhvien
         private System.Windows.Forms.DataGridViewTextBoxColumn MaKhoa;
         private System.Windows.Forms.DataGridViewTextBoxColumn TenKhoa;
         private System.Windows.Forms.DataGridViewTextBoxColumn DiaChi;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DienThoai;
     }
 }

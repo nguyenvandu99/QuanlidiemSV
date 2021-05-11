@@ -128,5 +128,15 @@ namespace Quanlidiemsinhvien
             if (dl == DialogResult.No)
                 e.Cancel = true;
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void danhsachsinhvien_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

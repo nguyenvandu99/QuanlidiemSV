@@ -277,6 +277,7 @@
             this.label10.Size = new System.Drawing.Size(349, 24);
             this.label10.TabIndex = 0;
             this.label10.Text = "CẬP NHẬP THÔNG TIN SINH VIÊN";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // groupBox2
             // 
@@ -303,6 +304,7 @@
             this.danhsachsinhvien.Name = "danhsachsinhvien";
             this.danhsachsinhvien.Size = new System.Drawing.Size(1155, 761);
             this.danhsachsinhvien.TabIndex = 2;
+            this.danhsachsinhvien.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.danhsachsinhvien_CellContentClick);
             // 
             // MaSV
             // 
@@ -394,6 +396,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cboMaLop;
         private System.Windows.Forms.ComboBox cboMakhoa;
+        private System.Windows.Forms.DateTimePicker textNgaysinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaSV;
         private System.Windows.Forms.DataGridViewTextBoxColumn TenSV;
         private System.Windows.Forms.DataGridViewTextBoxColumn NgaySinh;
@@ -401,6 +404,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn QueQuan;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaLop;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaKhoa;
-        private System.Windows.Forms.DateTimePicker textNgaysinh;
     }
 }

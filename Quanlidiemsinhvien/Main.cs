@@ -181,7 +181,7 @@ namespace Quanlidiemsinhvien
         {
             string idper = UID;
             List<string> termlist = new List<string>();
-            string connString = @"Data Source=MRROBOT\SQLEXPRESS;Initial Catalog=QuanLiDiemSV;Persist Security Info=True;User ID=sa;Password=123";
+            string connString = @"Data Source=DUCDU\SQLEXPRESS;Initial Catalog=QuanLiDiemSV;Persist Security Info=True;User ID=sa;Password=123";
             SqlConnection con = new SqlConnection(connString);    
             try
             {

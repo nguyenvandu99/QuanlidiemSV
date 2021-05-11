@@ -27,7 +27,7 @@ namespace Quanlidiemsinhvien
         private string getUserName()
         {
             string userName = "";
-            string conString = @"Data Source=MRROBOT\SQLEXPRESS;Initial Catalog=QuanLiDiemSV;Persist Security Info=True;User ID=sa;Password=123";
+            string conString = @"Data Source=DUCDU\SQLEXPRESS;Initial Catalog=QuanLiDiemSV;Persist Security Info=True;User ID=sa;Password=123";
             Console.WriteLine(conString);
             SqlConnection con = new SqlConnection(conString);
             try
@@ -61,7 +61,7 @@ namespace Quanlidiemsinhvien
         private string getID()
         {
             string id = "";            
-            string conString = @"Data Source=MRROBOT\SQLEXPRESS;Initial Catalog=QuanLiDiemSV;Persist Security Info=True;User ID=sa;Password=123";
+            string conString = @"Data Source=DUCDU\SQLEXPRESS;Initial Catalog=QuanLiDiemSV;Persist Security Info=True;User ID=sa;Password=123";
             Console.WriteLine(conString);
             SqlConnection con = new SqlConnection(conString);
             try

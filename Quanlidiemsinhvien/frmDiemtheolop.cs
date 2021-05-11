@@ -173,9 +173,6 @@ namespace Quanlidiemsinhvien
             worksheet.Range["E15", "E" + (mon + 14)].HorizontalAlignment = 3;
             worksheet.Range["F15", "F" + (mon + 14)].HorizontalAlignment = 3;
             worksheet.Range["G15", "G" + (mon + 14)].HorizontalAlignment = 3;
-
-
-
         }
 
         private void lbnMaSV_Click(object sender, EventArgs e)
